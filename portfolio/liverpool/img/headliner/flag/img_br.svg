@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 600 420">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        fill: #002776;
+      }
+
+      .st2 {
+        fill-rule: evenodd;
+      }
+
+      .st2, .st3 {
+        fill: #009b3a;
+      }
+
+      .st4 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st5 {
+        fill: #fff;
+      }
+
+      .st6 {
+        fill: #fedf00;
+      }
+
+      .st7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="st0" cx="300" cy="210" r="104.6"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path class="st0" d="M332.4,195.9l4-9.1,8.2,3.6-4,9.1-8.2-3.6ZM339.2,191.5l-.7,1.6,4.1,1.8.7-1.6-4.1-1.8Z"/>
+    </clipPath>
+  </defs>
+  <rect class="st3" x="1.2" y=".8" width="597.6" height="418.3"/>
+  <path class="st6" d="M52,210l248,158.4,248-158.4L300,51.6,52,210Z"/>
+  <circle class="st1" cx="300" cy="210" r="104.6"/>
+  <g class="st7">
+    <path class="st5" d="M-13.7,419.2c0-140.3,113.7-254,254-254s254,113.7,254,254h-14.9c0-132-107-239-239-239S1.2,287.1,1.2,419.2h-14.9Z"/>
+  </g>
+  <g>
+    <path id="a" class="st2" d="M210.8,179.4c2.5-.3,4.2-2.8,3.8-5.5s-2.6-4.7-5.1-4.4-4.2,2.8-3.8,5.5,2.6,4.7,5.1,4.4M210.6,177.6c1.4-.2,2.4-1.7,2.2-3.4s-1.6-3-3-2.8-2.4,1.7-2.2,3.4,1.6,3,3,2.8"/>
+    <g id="h">
+      <path id="c" class="st2" d="M218.9,178.5h1.8c0-.1-.3-3.8-.3-3.8l4-.3c1.7-.1,3-1.6,2.9-3.3s-1.6-3-3.3-2.9l-5.7.4.6,9.9ZM220.4,172.9l3.8-.3c.7,0,1.2-.7,1.2-1.4s-.7-1.2-1.4-1.2l-3.8.3.2,2.6Z"/>
+      <path class="st3" d="M227.4,177.9c0-1.4-.3-4.5-2.4-4.4l-2.7.2c3.1-.2,3.3,2.9,3.4,4.3"/>
+    </g>
+    <path id="i" class="st2" d="M231.5,177.7h4.7c2.4-.1,4.2-2.1,4.2-4.4v-1.4c0-2.4-2-4.2-4.4-4.2h-4.7c0,0,.2,10,.2,10ZM233.4,175.9h2.7c1.5,0,2.7-1.3,2.7-2.8v-.9c0-1.5-1.3-2.7-2.8-2.7h-2.7s.1,6.3.1,6.3Z"/>
+    <path id="j" class="st3" d="M244.2,177.6l9,.3v-1.8c0,0-7.2-.3-7.2-.3v-2.6c0,0,5.8.2,5.8.2v-1.7c0,0-5.6-.2-5.6-.2v-2c0,0,6.9.2,6.9.2v-1.8c0,0-8.5-.3-8.5-.3l-.3,10Z"/>
+    <path id="k" class="st3" d="M256.8,178.2h1.7c0,.1.6-6.7.6-6.7l1.4,7h1.6c0,.1,2.6-6.5,2.6-6.5l-.6,6.8h1.7c0,.1.9-9.8.9-9.8l-2.5-.2-2.6,6.6-1.4-7-2.5-.2-.9,9.9Z"/>
+    <path id="l" class="st3" d="M277.5,180.5l7.4,1.3.3-1.7-5.7-1,.4-2.2,4.6.8.3-1.7-4.6-.8.3-1.5,5.5.9.3-1.7-7.2-1.2-1.5,8.8Z"/>
+    <path id="c1" data-name="c" class="st2" d="M296.4,184.2l1.8.5.9-3.6,3.9,1c1.7.4,3.4-.6,3.8-2.2s-.6-3.4-2.2-3.8l-5.5-1.4-2.6,9.6ZM299.6,179.3l3.7,1c.7.2,1.4-.2,1.6-.9s-.2-1.4-.9-1.6l-3.7-1-.6,2.5Z"/>
+    <g id="h1" data-name="h">
+      <path id="c2" data-name="c" class="st2" d="M308.6,187.5l1.8.6,1.1-3.5,3.8,1.2c1.6.5,3.4-.4,3.9-2s-.4-3.4-2-3.9l-5.4-1.7-3.1,9.5ZM312,182.7l3.7,1.2c.7.2,1.4-.2,1.6-.8s-.2-1.4-.8-1.6l-3.7-1.2-.8,2.4Z"/>
+      <path class="st3" d="M316.7,190c.4-1.4,1.4-4.3-.7-5l-2.6-.8c3,.9,2,3.9,1.6,5.3"/>
+    </g>
+    <path id="a1" data-name="a" class="st2" d="M324.8,192.9c2.3.9,5-.5,5.9-3.1s-.1-5.4-2.5-6.2-5,.5-5.9,3.1.1,5.4,2.5,6.2M325.5,191.2c1.4.5,3-.4,3.6-2s0-3.3-1.4-3.9-3,.4-3.6,2,0,3.3,1.4,3.9"/>
+    <g id="m">
+      <g class="st4">
+        <path id="a2" data-name="a" class="st2" d="M336.5,197.7c2.3,1,5-.3,6.1-2.8s.1-5.4-2.1-6.4-5,.3-6.1,2.8-.1,5.4,2.1,6.4M337.3,196c1.3.6,3-.2,3.7-1.8s.2-3.3-1.2-3.9-3,.2-3.7,1.8-.2,3.3,1.2,3.9"/>
+      </g>
+      <path class="st3" d="M339.2,193.4l3.5,1.5-.6,1.3-3.5-1.5.6-1.3Z"/>
+      <path class="st3" d="M341.3,194.3l1.3.6-2,4.6-1.3-.6,2-4.6Z"/>
+    </g>
+    <g id="h2" data-name="h">
+      <path id="c3" data-name="c" class="st2" d="M344,201l1.7.8,1.7-3.3,3.6,1.8c1.5.8,3.4.1,4.2-1.4s.1-3.4-1.4-4.2l-5.1-2.5-4.6,8.9ZM348.1,196.9l3.4,1.7c.6.3,1.4,0,1.7-.6s0-1.4-.6-1.7l-3.4-1.7-1.1,2.3Z"/>
+      <path class="st3" d="M351.6,204.8c.6-1.3,2-4.1.1-5l-2.4-1.2c2.8,1.4,1.4,4.2.8,5.5"/>
+    </g>
+    <path id="j1" data-name="j" class="st3" d="M355.3,206.7l7.8,4.4.9-1.6-6.3-3.6,1.3-2.2,5,2.8.8-1.5-5-2.8,1-1.7,5.9,3.4.9-1.6-7.4-4.2-4.9,8.7Z"/>
+    <path id="n" class="st3" d="M369.8,211.6c-.5.8,0,1.8,1.2,2.5s2,.7,2.4.2c1.1-1.7-5.2-4.2-3.3-7.2,1.7-2.6,4.5-.6,5.6.1s2.8,2.5,1.5,4.5l-1.8-1.2c.6-.9,0-1.8-1-2.4s-1.7-.9-2.2,0c-.9,1.4,5.2,4,3.4,7s-3.8,1.2-5.4.2-3.4-3-2.1-5l1.9,1.2Z"/>
+    <path id="n1" data-name="n" class="st3" d="M380.5,218.7c-.6.8,0,1.8,1.1,2.6s2,.8,2.3.3c1.2-1.7-5-4.5-2.9-7.3,1.8-2.5,4.6-.3,5.6.4s2.7,2.6,1.2,4.6l-1.8-1.3c.6-.9,0-1.8-.9-2.4s-1.6-.9-2.2-.1c-1,1.3,5,4.3,3,7.2s-3.9,1-5.4,0-3.3-3.1-1.8-5.2l1.8,1.3Z"/>
+    <path id="a3" data-name="a" class="st2" d="M390.6,230.1c1.9,1.5,4.9,1,6.6-1.1s1.5-5.1-.4-6.7-4.9-1-6.6,1.1-1.5,5.1.4,6.7M391.7,228.7c1.1.9,2.9.5,4-.8s1-3.2-.1-4.1-2.9-.5-4,.8-1,3.2.1,4.1"/>
+  </g>
+  <g id="o">
+    <g id="f">
+      <g id="e">
+        <path id="d" class="st5" d="M214.6,186.7l-1.4,4.3,2.1.7"/>
+        <path id="d1" data-name="d" class="st5" d="M214.6,186.7l1.4,4.3-2.1.7"/>
+      </g>
+      <g id="e1" data-name="e">
+        <path id="d2" data-name="d" class="st5" d="M218.9,189.8h-4.5v2.2"/>
+        <path id="d3" data-name="d" class="st5" d="M218.9,189.8l-3.6,2.6-1.3-1.8"/>
+      </g>
+      <g id="e2" data-name="e">
+        <path id="d4" data-name="d" class="st5" d="M210.4,189.8l3.6,2.6,1.3-1.8"/>
+        <path id="d5" data-name="d" class="st5" d="M210.4,189.8h4.5v2.2"/>
+      </g>
+      <g id="e3" data-name="e">
+        <path id="d6" data-name="d" class="st5" d="M217.3,194.8l-1.4-4.3-2.1.7"/>
+        <path id="d7" data-name="d" class="st5" d="M217.3,194.8l-3.6-2.6,1.3-1.8"/>
+      </g>
+      <g id="e4" data-name="e">
+        <path id="d8" data-name="d" class="st5" d="M212,194.8l3.6-2.6-1.3-1.8"/>
+        <path id="d9" data-name="d" class="st5" d="M212,194.8l1.4-4.3,2.1.7"/>
+      </g>
+    </g>
+  </g>
+  <g id="o1" data-name="o">
+    <g id="f1" data-name="f">
+      <g id="e5" data-name="e">
+        <path id="d10" data-name="d" class="st5" d="M223.9,230.7l-1.4,4.3,2.1.7"/>
+        <path id="d11" data-name="d" class="st5" d="M223.9,230.7l1.4,4.3-2.1.7"/>
+      </g>
+      <g id="e6" data-name="e">
+        <path id="d12" data-name="d" class="st5" d="M228.1,233.8h-4.5v2.2"/>
+        <path id="d13" data-name="d" class="st5" d="M228.1,233.8l-3.6,2.6-1.3-1.8"/>
+      </g>
+      <g id="e7" data-name="e">
+        <path id="d14" data-name="d" class="st5" d="M219.6,233.8l3.6,2.6,1.3-1.8"/>
+        <path id="d15" data-name="d" class="st5" d="M219.6,233.8h4.5v2.2"/>
+      </g>
+      <g id="e8" data-name="e">
+        <path id="d16" data-name="d" class="st5" d="M226.5,238.8l-1.4-4.3-2.1.7"/>
+        <path id="d17" data-name="d" class="st5" d="M226.5,238.8l-3.6-2.6,1.3-1.8"/>
+      </g>
+      <g id="e9" data-name="e">
+        <path id="d18" data-name="d" class="st5" d="M221.2,238.8l3.6-2.6-1.3-1.8"/>
+        <path id="d19" data-name="d" class="st5" d="M221.2,238.8l1.4-4.3,2.1.7"/>
+      </g>
+    </g>
+  </g>
+  <g id="p">
+    <g id="f2" data-name="f">
+      <g id="e10" data-name="e">
+        <path id="d20" data-name="d" class="st5" d="M211.1,240.8l-1.2,3.6,1.8.6"/>
+        <path id="d21" data-name="d" class="st5" d="M211.1,240.8l1.2,3.6-1.8.6"/>
+      </g>
+      <g id="e11" data-name="e">
+        <path id="d22" data-name="d" class="st5" d="M214.6,243.4h-3.7s0,1.9,0,1.9"/>
+        <path id="d23" data-name="d" class="st5" d="M214.6,243.4l-3,2.2-1.1-1.5"/>
+      </g>
+      <g id="e12" data-name="e">
+        <path id="d24" data-name="d" class="st5" d="M207.5,243.4l3,2.2,1.1-1.5"/>
+        <path id="d25" data-name="d" class="st5" d="M207.5,243.4h3.7s0,1.9,0,1.9"/>
+      </g>
+      <g id="e13" data-name="e">
+        <path id="d26" data-name="d" class="st5" d="M213.3,247.6l-1.2-3.6-1.8.6"/>
+        <path id="d27" data-name="d" class="st5" d="M213.3,247.6l-3-2.2,1.1-1.5"/>
+      </g>
+      <g id="e14" data-name="e">
+        <path id="d28" data-name="d" class="st5" d="M208.9,247.6l3-2.2-1.1-1.5"/>
+        <path id="d29" data-name="d" class="st5" d="M208.9,247.6l1.2-3.6,1.8.6"/>
+      </g>
+    </g>
+  </g>
+  <g id="q">
+    <g id="f3" data-name="f">
+      <g id="e15" data-name="e">
+        <path id="d30" data-name="d" class="st5" d="M234.1,226.6l-.7,2,1,.3"/>
+        <path id="d31" data-name="d" class="st5" d="M234.1,226.6l.7,2-1,.3"/>
+      </g>
+      <g id="e16" data-name="e">
+        <path id="d32" data-name="d" class="st5" d="M236.2,228.1h-2.1s0,1.1,0,1.1"/>
+        <path id="d33" data-name="d" class="st5" d="M236.2,228.1l-1.7,1.3-.6-.9"/>
+      </g>
+      <g id="e17" data-name="e">
+        <path id="d34" data-name="d" class="st5" d="M232.1,228.1l1.7,1.3.6-.9"/>
+        <path id="d35" data-name="d" class="st5" d="M232.1,228.1h2.1s0,1.1,0,1.1"/>
+      </g>
+      <g id="e18" data-name="e">
+        <path id="d36" data-name="d" class="st5" d="M235.4,230.5l-.7-2-1,.3"/>
+        <path id="d37" data-name="d" class="st5" d="M235.4,230.5l-1.7-1.3.6-.9"/>
+      </g>
+      <g id="e19" data-name="e">
+        <path id="d38" data-name="d" class="st5" d="M232.9,230.5l1.7-1.3-.6-.9"/>
+        <path id="d39" data-name="d" class="st5" d="M232.9,230.5l.7-2,1,.3"/>
+      </g>
+    </g>
+  </g>
+  <g id="p1" data-name="p">
+    <g id="f4" data-name="f">
+      <g id="e20" data-name="e">
+        <path id="d40" data-name="d" class="st5" d="M245.6,241.8l-1.2,3.6,1.8.6"/>
+        <path id="d41" data-name="d" class="st5" d="M245.6,241.8l1.2,3.6-1.8.6"/>
+      </g>
+      <g id="e21" data-name="e">
+        <path id="d42" data-name="d" class="st5" d="M249.2,244.4h-3.7s0,1.9,0,1.9"/>
+        <path id="d43" data-name="d" class="st5" d="M249.2,244.4l-3,2.2-1.1-1.5"/>
+      </g>
+      <g id="e22" data-name="e">
+        <path id="d44" data-name="d" class="st5" d="M242.1,244.4l3,2.2,1.1-1.5"/>
+        <path id="d45" data-name="d" class="st5" d="M242.1,244.4h3.7s0,1.9,0,1.9"/>
+      </g>
+      <g id="e23" data-name="e">
+        <path id="d46" data-name="d" class="st5" d="M247.8,248.6l-1.2-3.6-1.8.6"/>
+        <path id="d47" data-name="d" class="st5" d="M247.8,248.6l-3-2.2,1.1-1.5"/>
+      </g>
+      <g id="e24" data-name="e">
+        <path id="d48" data-name="d" class="st5" d="M243.5,248.6l3-2.2-1.1-1.5"/>
+        <path id="d49" data-name="d" class="st5" d="M243.5,248.6l1.2-3.6,1.8.6"/>
+      </g>
+    </g>
+  </g>
+  <g id="r">
+    <g id="f5" data-name="f">
+      <g id="e25" data-name="e">
+        <path id="d50" data-name="d" class="st5" d="M242.5,253l-.9,2.8,1.4.5"/>
+        <path id="d51" data-name="d" class="st5" d="M242.5,253l.9,2.8-1.4.5"/>
+      </g>
+      <g id="e26" data-name="e">
+        <path id="d52" data-name="d" class="st5" d="M245.4,255h-3s0,1.5,0,1.5"/>
+        <path id="d53" data-name="d" class="st5" d="M245.4,255l-2.4,1.8-.9-1.2"/>
+      </g>
+      <g id="e27" data-name="e">
+        <path id="d54" data-name="d" class="st5" d="M239.7,255l2.4,1.8.9-1.2"/>
+        <path id="d55" data-name="d" class="st5" d="M239.7,255h3s0,1.5,0,1.5"/>
+      </g>
+      <g id="e28" data-name="e">
+        <path id="d56" data-name="d" class="st5" d="M244.3,258.4l-.9-2.8-1.4.5"/>
+        <path id="d57" data-name="d" class="st5" d="M244.3,258.4l-2.4-1.8.9-1.2"/>
+      </g>
+      <g id="e29" data-name="e">
+        <path id="d58" data-name="d" class="st5" d="M240.8,258.4l2.4-1.8-.9-1.2"/>
+        <path id="d59" data-name="d" class="st5" d="M240.8,258.4l.9-2.8,1.4.5"/>
+      </g>
+    </g>
+  </g>
+  <g id="o2" data-name="o">
+    <g id="f6" data-name="f">
+      <g id="e30" data-name="e">
+        <path id="d60" data-name="d" class="st5" d="M332.4,173.1l-1.4,4.3,2.1.7"/>
+        <path id="d61" data-name="d" class="st5" d="M332.4,173.1l1.4,4.3-2.1.7"/>
+      </g>
+      <g id="e31" data-name="e">
+        <path id="d62" data-name="d" class="st5" d="M336.7,176.2h-4.5v2.2"/>
+        <path id="d63" data-name="d" class="st5" d="M336.7,176.2l-3.6,2.6-1.3-1.8"/>
+      </g>
+      <g id="e32" data-name="e">
+        <path id="d64" data-name="d" class="st5" d="M328.2,176.2l3.6,2.6,1.3-1.8"/>
+        <path id="d65" data-name="d" class="st5" d="M328.2,176.2h4.5v2.2"/>
+      </g>
+      <g id="e33" data-name="e">
+        <path id="d66" data-name="d" class="st5" d="M335.1,181.2l-1.4-4.3-2.1.7"/>
+        <path id="d67" data-name="d" class="st5" d="M335.1,181.2l-3.6-2.6,1.3-1.8"/>
+      </g>
+      <g id="e34" data-name="e">
+        <path id="d68" data-name="d" class="st5" d="M329.8,181.2l3.6-2.6-1.3-1.8"/>
+        <path id="d69" data-name="d" class="st5" d="M329.8,181.2l1.4-4.3,2.1.7"/>
+      </g>
+    </g>
+  </g>
+  <g id="o3" data-name="o">
+    <g id="f7" data-name="f">
+      <g id="e35" data-name="e">
+        <path id="d70" data-name="d" class="st5" d="M373.3,242.2l-1.4,4.3,2.1.7"/>
+        <path id="d71" data-name="d" class="st5" d="M373.3,242.2l1.4,4.3-2.1.7"/>
+      </g>
+      <g id="e36" data-name="e">
+        <path id="d72" data-name="d" class="st5" d="M377.5,245.3h-4.5v2.2"/>
+        <path id="d73" data-name="d" class="st5" d="M377.5,245.3l-3.6,2.6-1.3-1.8"/>
+      </g>
+      <g id="e37" data-name="e">
+        <path id="d74" data-name="d" class="st5" d="M369,245.3l3.6,2.6,1.3-1.8"/>
+        <path id="d75" data-name="d" class="st5" d="M369,245.3h4.5v2.2"/>
+      </g>
+      <g id="e38" data-name="e">
+        <path id="d76" data-name="d" class="st5" d="M375.9,250.3l-1.4-4.3-2.1.7"/>
+        <path id="d77" data-name="d" class="st5" d="M375.9,250.3l-3.6-2.6,1.3-1.8"/>
+      </g>
+      <g id="e39" data-name="e">
+        <path id="d78" data-name="d" class="st5" d="M370.6,250.3l3.6-2.6-1.3-1.8"/>
+        <path id="d79" data-name="d" class="st5" d="M370.6,250.3l1.4-4.3,2.1.7"/>
+      </g>
+    </g>
+  </g>
+  <g id="r1" data-name="r">
+    <g id="f8" data-name="f">
+      <g id="e40" data-name="e">
+        <path id="d80" data-name="d" class="st5" d="M387.8,244.7l-.9,2.8,1.4.5"/>
+        <path id="d81" data-name="d" class="st5" d="M387.8,244.7l.9,2.8-1.4.5"/>
+      </g>
+      <g id="e41" data-name="e">
+        <path id="d82" data-name="d" class="st5" d="M390.6,246.8h-3s0,1.5,0,1.5"/>
+        <path id="d83" data-name="d" class="st5" d="M390.6,246.8l-2.4,1.8-.9-1.2"/>
+      </g>
+      <g id="e42" data-name="e">
+        <path id="d84" data-name="d" class="st5" d="M384.9,246.8l2.4,1.8.9-1.2"/>
+        <path id="d85" data-name="d" class="st5" d="M384.9,246.8h3s0,1.5,0,1.5"/>
+      </g>
+      <g id="e43" data-name="e">
+        <path id="d86" data-name="d" class="st5" d="M389.5,250.1l-.9-2.8-1.4.5"/>
+        <path id="d87" data-name="d" class="st5" d="M389.5,250.1l-2.4-1.8.9-1.2"/>
+      </g>
+      <g id="e44" data-name="e">
+        <path id="d88" data-name="d" class="st5" d="M386,250.1l2.4-1.8-.9-1.2"/>
+        <path id="d89" data-name="d" class="st5" d="M386,250.1l.9-2.8,1.4.5"/>
+      </g>
+    </g>
+  </g>
+  <g id="p2" data-name="p">
+    <g id="f9" data-name="f">
+      <g id="e45" data-name="e">
+        <path id="d90" data-name="d" class="st5" d="M377.5,252.2l-1.2,3.6,1.8.6"/>
+        <path id="d91" data-name="d" class="st5" d="M377.5,252.2l1.2,3.6-1.8.6"/>
+      </g>
+      <g id="e46" data-name="e">
+        <path id="d92" data-name="d" class="st5" d="M381.1,254.8h-3.7s0,1.9,0,1.9"/>
+        <path id="d93" data-name="d" class="st5" d="M381.1,254.8l-3,2.2-1.1-1.5"/>
+      </g>
+      <g id="e47" data-name="e">
+        <path id="d94" data-name="d" class="st5" d="M374,254.8l3,2.2,1.1-1.5"/>
+        <path id="d95" data-name="d" class="st5" d="M374,254.8h3.7s0,1.9,0,1.9"/>
+      </g>
+      <g id="e48" data-name="e">
+        <path id="d96" data-name="d" class="st5" d="M379.7,259l-1.2-3.6-1.8.6"/>
+        <path id="d97" data-name="d" class="st5" d="M379.7,259l-3-2.2,1.1-1.5"/>
+      </g>
+      <g id="e49" data-name="e">
+        <path id="d98" data-name="d" class="st5" d="M375.4,259l3-2.2-1.1-1.5"/>
+        <path id="d99" data-name="d" class="st5" d="M375.4,259l1.2-3.6,1.8.6"/>
+      </g>
+    </g>
+  </g>
+  <g id="p3" data-name="p">
+    <g id="f10" data-name="f">
+      <g id="e50" data-name="e">
+        <path id="d100" data-name="d" class="st5" d="M352.4,274.1l-1.2,3.6,1.8.6"/>
+        <path id="d101" data-name="d" class="st5" d="M352.4,274.1l1.2,3.6-1.8.6"/>
+      </g>
+      <g id="e51" data-name="e">
+        <path id="d102" data-name="d" class="st5" d="M355.9,276.7h-3.7s0,1.9,0,1.9"/>
+        <path id="d103" data-name="d" class="st5" d="M355.9,276.7l-3,2.2-1.1-1.5"/>
+      </g>
+      <g id="e52" data-name="e">
+        <path id="d104" data-name="d" class="st5" d="M348.8,276.7l3,2.2,1.1-1.5"/>
+        <path id="d105" data-name="d" class="st5" d="M348.8,276.7h3.7s0,1.9,0,1.9"/>
+      </g>
+      <g id="e53" data-name="e">
+        <path id="d106" data-name="d" class="st5" d="M354.6,280.9l-1.2-3.6-1.8.6"/>
+        <path id="d107" data-name="d" class="st5" d="M354.6,280.9l-3-2.2,1.1-1.5"/>
+      </g>
+      <g id="e54" data-name="e">
+        <path id="d108" data-name="d" class="st5" d="M350.2,280.9l3-2.2-1.1-1.5"/>
+        <path id="d109" data-name="d" class="st5" d="M350.2,280.9l1.2-3.6,1.8.6"/>
+      </g>
+    </g>
+  </g>
+  <g id="r2" data-name="r">
+    <g id="f11" data-name="f">
+      <g id="e55" data-name="e">
+        <path id="d110" data-name="d" class="st5" d="M352.2,285.4l-.9,2.8,1.4.5"/>
+        <path id="d111" data-name="d" class="st5" d="M352.2,285.4l.9,2.8-1.4.5"/>
+      </g>
+      <g id="e56" data-name="e">
+        <path id="d112" data-name="d" class="st5" d="M355.1,287.5h-3s0,1.5,0,1.5"/>
+        <path id="d113" data-name="d" class="st5" d="M355.1,287.5l-2.4,1.8-.9-1.2"/>
+      </g>
+      <g id="e57" data-name="e">
+        <path id="d114" data-name="d" class="st5" d="M349.4,287.5l2.4,1.8.9-1.2"/>
+        <path id="d115" data-name="d" class="st5" d="M349.4,287.5h3s0,1.5,0,1.5"/>
+      </g>
+      <g id="e58" data-name="e">
+        <path id="d116" data-name="d" class="st5" d="M354,290.8l-.9-2.8-1.4.5"/>
+        <path id="d117" data-name="d" class="st5" d="M354,290.8l-2.4-1.8.9-1.2"/>
+      </g>
+      <g id="e59" data-name="e">
+        <path id="d118" data-name="d" class="st5" d="M350.5,290.8l2.4-1.8-.9-1.2"/>
+        <path id="d119" data-name="d" class="st5" d="M350.5,290.8l.9-2.8,1.4.5"/>
+      </g>
+    </g>
+  </g>
+  <g id="r3" data-name="r">
+    <g id="f12" data-name="f">
+      <g id="e60" data-name="e">
+        <path id="d120" data-name="d" class="st5" d="M362.7,266.6l-.9,2.8,1.4.5"/>
+        <path id="d121" data-name="d" class="st5" d="M362.7,266.6l.9,2.8-1.4.5"/>
+      </g>
+      <g id="e61" data-name="e">
+        <path id="d122" data-name="d" class="st5" d="M365.6,268.7h-3s0,1.5,0,1.5"/>
+        <path id="d123" data-name="d" class="st5" d="M365.6,268.7l-2.4,1.8-.9-1.2"/>
+      </g>
+      <g id="e62" data-name="e">
+        <path id="d124" data-name="d" class="st5" d="M359.9,268.7l2.4,1.8.9-1.2"/>
+        <path id="d125" data-name="d" class="st5" d="M359.9,268.7h3s0,1.5,0,1.5"/>
+      </g>
+      <g id="e63" data-name="e">
+        <path id="d126" data-name="d" class="st5" d="M364.5,272l-.9-2.8-1.4.5"/>
+        <path id="d127" data-name="d" class="st5" d="M364.5,272l-2.4-1.8.9-1.2"/>
+      </g>
+      <g id="e64" data-name="e">
+        <path id="d128" data-name="d" class="st5" d="M361,272l2.4-1.8-.9-1.2"/>
+        <path id="d129" data-name="d" class="st5" d="M361,272l.9-2.8,1.4.5"/>
+      </g>
+    </g>
+  </g>
+  <g id="p4" data-name="p">
+    <g id="f13" data-name="f">
+      <g id="e65" data-name="e">
+        <path id="d130" data-name="d" class="st5" d="M371.1,260.6l-1.2,3.6,1.8.6"/>
+        <path id="d131" data-name="d" class="st5" d="M371.1,260.6l1.2,3.6-1.8.6"/>
+      </g>
+      <g id="e66" data-name="e">
+        <path id="d132" data-name="d" class="st5" d="M374.7,263.2h-3.7s0,1.9,0,1.9"/>
+        <path id="d133" data-name="d" class="st5" d="M374.7,263.2l-3,2.2-1.1-1.5"/>
+      </g>
+      <g id="e67" data-name="e">
+        <path id="d134" data-name="d" class="st5" d="M367.6,263.2l3,2.2,1.1-1.5"/>
+        <path id="d135" data-name="d" class="st5" d="M367.6,263.2h3.7s0,1.9,0,1.9"/>
+      </g>
+      <g id="e68" data-name="e">
+        <path id="d136" data-name="d" class="st5" d="M373.3,267.4l-1.2-3.6-1.8.6"/>
+        <path id="d137" data-name="d" class="st5" d="M373.3,267.4l-3-2.2,1.1-1.5"/>
+      </g>
+      <g id="e69" data-name="e">
+        <path id="d138" data-name="d" class="st5" d="M368.9,267.4l3-2.2-1.1-1.5"/>
+        <path id="d139" data-name="d" class="st5" d="M368.9,267.4l1.2-3.6,1.8.6"/>
+      </g>
+    </g>
+  </g>
+  <g id="r4" data-name="r">
+    <g id="f14" data-name="f">
+      <g id="e70" data-name="e">
+        <path id="d140" data-name="d" class="st5" d="M351.9,264.6l-.9,2.8,1.4.5"/>
+        <path id="d141" data-name="d" class="st5" d="M351.9,264.6l.9,2.8-1.4.5"/>
+      </g>
+      <g id="e71" data-name="e">
+        <path id="d142" data-name="d" class="st5" d="M354.8,266.7h-3s0,1.5,0,1.5"/>
+        <path id="d143" data-name="d" class="st5" d="M354.8,266.7l-2.4,1.8-.9-1.2"/>
+      </g>
+      <g id="e72" data-name="e">
+        <path id="d144" data-name="d" class="st5" d="M349.1,266.7l2.4,1.8.9-1.2"/>
+        <path id="d145" data-name="d" class="st5" d="M349.1,266.7h3s0,1.5,0,1.5"/>
+      </g>
+      <g id="e73" data-name="e">
+        <path id="d146" data-name="d" class="st5" d="M353.7,270l-.9-2.8-1.4.5"/>
+        <path id="d147" data-name="d" class="st5" d="M353.7,270l-2.4-1.8.9-1.2"/>
+      </g>
+      <g id="e74" data-name="e">
+        <path id="d148" data-name="d" class="st5" d="M350.2,270l2.4-1.8-.9-1.2"/>
+        <path id="d149" data-name="d" class="st5" d="M350.2,270l.9-2.8,1.4.5"/>
+      </g>
+    </g>
+  </g>
+  <g id="p5" data-name="p">
+    <g id="f15" data-name="f">
+      <g id="e75" data-name="e">
+        <path id="d150" data-name="d" class="st5" d="M260.2,210.5l-1.2,3.6,1.8.6"/>
+        <path id="d151" data-name="d" class="st5" d="M260.2,210.5l1.2,3.6-1.8.6"/>
+      </g>
+      <g id="e76" data-name="e">
+        <path id="d152" data-name="d" class="st5" d="M263.7,213.1h-3.7s0,1.9,0,1.9"/>
+        <path id="d153" data-name="d" class="st5" d="M263.7,213.1l-3,2.2-1.1-1.5"/>
+      </g>
+      <g id="e77" data-name="e">
+        <path id="d154" data-name="d" class="st5" d="M256.6,213.1l3,2.2,1.1-1.5"/>
+        <path id="d155" data-name="d" class="st5" d="M256.6,213.1h3.7s0,1.9,0,1.9"/>
+      </g>
+      <g id="e78" data-name="e">
+        <path id="d156" data-name="d" class="st5" d="M262.4,217.3l-1.2-3.6-1.8.6"/>
+        <path id="d157" data-name="d" class="st5" d="M262.4,217.3l-3-2.2,1.1-1.5"/>
+      </g>
+      <g id="e79" data-name="e">
+        <path id="d158" data-name="d" class="st5" d="M258,217.3l3-2.2-1.1-1.5"/>
+        <path id="d159" data-name="d" class="st5" d="M258,217.3l1.2-3.6,1.8.6"/>
+      </g>
+    </g>
+  </g>
+  <g id="r5" data-name="r">
+    <g id="f16" data-name="f">
+      <g id="e80" data-name="e">
+        <path id="d160" data-name="d" class="st5" d="M328.5,201.7l-.9,2.8,1.4.5"/>
+        <path id="d161" data-name="d" class="st5" d="M328.5,201.7l.9,2.8-1.4.5"/>
+      </g>
+      <g id="e81" data-name="e">
+        <path id="d162" data-name="d" class="st5" d="M331.3,203.8h-3s0,1.5,0,1.5"/>
+        <path id="d163" data-name="d" class="st5" d="M331.3,203.8l-2.4,1.8-.9-1.2"/>
+      </g>
+      <g id="e82" data-name="e">
+        <path id="d164" data-name="d" class="st5" d="M325.6,203.8l2.4,1.8.9-1.2"/>
+        <path id="d165" data-name="d" class="st5" d="M325.6,203.8h3s0,1.5,0,1.5"/>
+      </g>
+      <g id="e83" data-name="e">
+        <path id="d166" data-name="d" class="st5" d="M330.2,207.2l-.9-2.8-1.4.5"/>
+        <path id="d167" data-name="d" class="st5" d="M330.2,207.2l-2.4-1.8.9-1.2"/>
+      </g>
+      <g id="e84" data-name="e">
+        <path id="d168" data-name="d" class="st5" d="M326.7,207.2l2.4-1.8-.9-1.2"/>
+        <path id="d169" data-name="d" class="st5" d="M326.7,207.2l.9-2.8,1.4.5"/>
+      </g>
+    </g>
+  </g>
+  <g id="o4" data-name="o">
+    <g id="f17" data-name="f">
+      <g id="e85" data-name="e">
+        <path id="d170" data-name="d" class="st5" d="M300,252.5l-1.4,4.3,2.1.7"/>
+        <path id="d171" data-name="d" class="st5" d="M300,252.5l1.4,4.3-2.1.7"/>
+      </g>
+      <g id="e86" data-name="e">
+        <path id="d172" data-name="d" class="st5" d="M304.3,255.6h-4.5v2.2"/>
+        <path id="d173" data-name="d" class="st5" d="M304.3,255.6l-3.6,2.6-1.3-1.8"/>
+      </g>
+      <g id="e87" data-name="e">
+        <path id="d174" data-name="d" class="st5" d="M295.7,255.6l3.6,2.6,1.3-1.8"/>
+        <path id="d175" data-name="d" class="st5" d="M295.7,255.6h4.5v2.2"/>
+      </g>
+      <g id="e88" data-name="e">
+        <path id="d176" data-name="d" class="st5" d="M302.6,260.6l-1.4-4.3-2.1.7"/>
+        <path id="d177" data-name="d" class="st5" d="M302.6,260.6l-3.6-2.6,1.3-1.8"/>
+      </g>
+      <g id="e89" data-name="e">
+        <path id="d178" data-name="d" class="st5" d="M297.4,260.6l3.6-2.6-1.3-1.8"/>
+        <path id="d179" data-name="d" class="st5" d="M297.4,260.6l1.4-4.3,2.1.7"/>
+      </g>
+    </g>
+  </g>
+  <g id="p6" data-name="p">
+    <g id="f18" data-name="f">
+      <g id="e90" data-name="e">
+        <path id="d180" data-name="d" class="st5" d="M312.1,232.4l-1.2,3.6,1.8.6"/>
+        <path id="d181" data-name="d" class="st5" d="M312.1,232.4l1.2,3.6-1.8.6"/>
+      </g>
+      <g id="e91" data-name="e">
+        <path id="d182" data-name="d" class="st5" d="M315.6,235h-3.7s0,1.9,0,1.9"/>
+        <path id="d183" data-name="d" class="st5" d="M315.6,235l-3,2.2-1.1-1.5"/>
+      </g>
+      <g id="e92" data-name="e">
+        <path id="d184" data-name="d" class="st5" d="M308.5,235l3,2.2,1.1-1.5"/>
+        <path id="d185" data-name="d" class="st5" d="M308.5,235h3.7s0,1.9,0,1.9"/>
+      </g>
+      <g id="e93" data-name="e">
+        <path id="d186" data-name="d" class="st5" d="M314.3,239.2l-1.2-3.6-1.8.6"/>
+        <path id="d187" data-name="d" class="st5" d="M314.3,239.2l-3-2.2,1.1-1.5"/>
+      </g>
+      <g id="e94" data-name="e">
+        <path id="d188" data-name="d" class="st5" d="M309.9,239.2l3-2.2-1.1-1.5"/>
+        <path id="d189" data-name="d" class="st5" d="M309.9,239.2l1.2-3.6,1.8.6"/>
+      </g>
+    </g>
+  </g>
+  <g id="p7" data-name="p">
+    <g id="f19" data-name="f">
+      <g id="e95" data-name="e">
+        <path id="d190" data-name="d" class="st5" d="M300,223.1l-1.2,3.6,1.8.6"/>
+        <path id="d191" data-name="d" class="st5" d="M300,223.1l1.2,3.6-1.8.6"/>
+      </g>
+      <g id="e96" data-name="e">
+        <path id="d192" data-name="d" class="st5" d="M303.6,225.6h-3.7s0,1.9,0,1.9"/>
+        <path id="d193" data-name="d" class="st5" d="M303.6,225.6l-3,2.2-1.1-1.5"/>
+      </g>
+      <g id="e97" data-name="e">
+        <path id="d194" data-name="d" class="st5" d="M296.4,225.6l3,2.2,1.1-1.5"/>
+        <path id="d195" data-name="d" class="st5" d="M296.4,225.6h3.7s0,1.9,0,1.9"/>
+      </g>
+      <g id="e98" data-name="e">
+        <path id="d196" data-name="d" class="st5" d="M302.2,229.8l-1.2-3.6-1.8.6"/>
+        <path id="d197" data-name="d" class="st5" d="M302.2,229.8l-3-2.2,1.1-1.5"/>
+      </g>
+      <g id="e99" data-name="e">
+        <path id="d198" data-name="d" class="st5" d="M297.8,229.8l3-2.2-1.1-1.5"/>
+        <path id="d199" data-name="d" class="st5" d="M297.8,229.8l1.2-3.6,1.8.6"/>
+      </g>
+    </g>
+  </g>
+  <g id="r6" data-name="r">
+    <g id="f20" data-name="f">
+      <g id="e100" data-name="e">
+        <path id="d200" data-name="d" class="st5" d="M289.5,233.2l-.9,2.8,1.4.5"/>
+        <path id="d201" data-name="d" class="st5" d="M289.5,233.2l.9,2.8-1.4.5"/>
+      </g>
+      <g id="e101" data-name="e">
+        <path id="d202" data-name="d" class="st5" d="M292.3,235.3h-3s0,1.5,0,1.5"/>
+        <path id="d203" data-name="d" class="st5" d="M292.3,235.3l-2.4,1.8-.9-1.2"/>
+      </g>
+      <g id="e102" data-name="e">
+        <path id="d204" data-name="d" class="st5" d="M286.6,235.3l2.4,1.8.9-1.2"/>
+        <path id="d205" data-name="d" class="st5" d="M286.6,235.3h3s0,1.5,0,1.5"/>
+      </g>
+      <g id="e103" data-name="e">
+        <path id="d206" data-name="d" class="st5" d="M291.2,238.6l-.9-2.8-1.4.5"/>
+        <path id="d207" data-name="d" class="st5" d="M291.2,238.6l-2.4-1.8.9-1.2"/>
+      </g>
+      <g id="e104" data-name="e">
+        <path id="d208" data-name="d" class="st5" d="M287.7,238.6l2.4-1.8-.9-1.2"/>
+        <path id="d209" data-name="d" class="st5" d="M287.7,238.6l.9-2.8,1.4.5"/>
+      </g>
+    </g>
+  </g>
+  <g id="q1" data-name="q">
+    <g id="f21" data-name="f">
+      <g id="e105" data-name="e">
+        <path id="d210" data-name="d" class="st5" d="M294.7,241.3l-.7,2,1,.3"/>
+        <path id="d211" data-name="d" class="st5" d="M294.7,241.3l.7,2-1,.3"/>
+      </g>
+      <g id="e106" data-name="e">
+        <path id="d212" data-name="d" class="st5" d="M296.8,242.8h-2.1s0,1.1,0,1.1"/>
+        <path id="d213" data-name="d" class="st5" d="M296.8,242.8l-1.7,1.3-.6-.9"/>
+      </g>
+      <g id="e107" data-name="e">
+        <path id="d214" data-name="d" class="st5" d="M292.7,242.8l1.7,1.3.6-.9"/>
+        <path id="d215" data-name="d" class="st5" d="M292.7,242.8h2.1s0,1.1,0,1.1"/>
+      </g>
+      <g id="e108" data-name="e">
+        <path id="d216" data-name="d" class="st5" d="M296,245.2l-.7-2-1,.3"/>
+        <path id="d217" data-name="d" class="st5" d="M296,245.2l-1.7-1.3.6-.9"/>
+      </g>
+      <g id="e109" data-name="e">
+        <path id="d218" data-name="d" class="st5" d="M293.5,245.2l1.7-1.3-.6-.9"/>
+        <path id="d219" data-name="d" class="st5" d="M293.5,245.2l.7-2,1,.3"/>
+      </g>
+    </g>
+  </g>
+  <g id="p8" data-name="p">
+    <g id="f22" data-name="f">
+      <g id="e110" data-name="e">
+        <path id="d220" data-name="d" class="st5" d="M331.3,276.7l-1.2,3.6,1.8.6"/>
+        <path id="d221" data-name="d" class="st5" d="M331.3,276.7l1.2,3.6-1.8.6"/>
+      </g>
+      <g id="e111" data-name="e">
+        <path id="d222" data-name="d" class="st5" d="M334.9,279.3h-3.7s0,1.9,0,1.9"/>
+        <path id="d223" data-name="d" class="st5" d="M334.9,279.3l-3,2.2-1.1-1.5"/>
+      </g>
+      <g id="e112" data-name="e">
+        <path id="d224" data-name="d" class="st5" d="M327.8,279.3l3,2.2,1.1-1.5"/>
+        <path id="d225" data-name="d" class="st5" d="M327.8,279.3h3.7s0,1.9,0,1.9"/>
+      </g>
+      <g id="e113" data-name="e">
+        <path id="d226" data-name="d" class="st5" d="M333.5,283.5l-1.2-3.6-1.8.6"/>
+        <path id="d227" data-name="d" class="st5" d="M333.5,283.5l-3-2.2,1.1-1.5"/>
+      </g>
+      <g id="e114" data-name="e">
+        <path id="d228" data-name="d" class="st5" d="M329.1,283.5l3-2.2-1.1-1.5"/>
+        <path id="d229" data-name="d" class="st5" d="M329.1,283.5l1.2-3.6,1.8.6"/>
+      </g>
+    </g>
+  </g>
+  <g id="r7" data-name="r">
+    <g id="f23" data-name="f">
+      <g id="e115" data-name="e">
+        <path id="d230" data-name="d" class="st5" d="M340.3,268.2l-.9,2.8,1.4.5"/>
+        <path id="d231" data-name="d" class="st5" d="M340.3,268.2l.9,2.8-1.4.5"/>
+      </g>
+      <g id="e116" data-name="e">
+        <path id="d232" data-name="d" class="st5" d="M343.1,270.3h-3s0,1.5,0,1.5"/>
+        <path id="d233" data-name="d" class="st5" d="M343.1,270.3l-2.4,1.8-.9-1.2"/>
+      </g>
+      <g id="e117" data-name="e">
+        <path id="d234" data-name="d" class="st5" d="M337.4,270.3l2.4,1.8.9-1.2"/>
+        <path id="d235" data-name="d" class="st5" d="M337.4,270.3h3s0,1.5,0,1.5"/>
+      </g>
+      <g id="e118" data-name="e">
+        <path id="d236" data-name="d" class="st5" d="M342,273.6l-.9-2.8-1.4.5"/>
+        <path id="d237" data-name="d" class="st5" d="M342,273.6l-2.4-1.8.9-1.2"/>
+      </g>
+      <g id="e119" data-name="e">
+        <path id="d238" data-name="d" class="st5" d="M338.5,273.6l2.4-1.8-.9-1.2"/>
+        <path id="d239" data-name="d" class="st5" d="M338.5,273.6l.9-2.8,1.4.5"/>
+      </g>
+    </g>
+  </g>
+  <g id="r8" data-name="r">
+    <g id="f24" data-name="f">
+      <g id="e120" data-name="e">
+        <path id="d240" data-name="d" class="st5" d="M323.1,265.6l-.9,2.8,1.4.5"/>
+        <path id="d241" data-name="d" class="st5" d="M323.1,265.6l.9,2.8-1.4.5"/>
+      </g>
+      <g id="e121" data-name="e">
+        <path id="d242" data-name="d" class="st5" d="M325.9,267.7h-3s0,1.5,0,1.5"/>
+        <path id="d243" data-name="d" class="st5" d="M325.9,267.7l-2.4,1.8-.9-1.2"/>
+      </g>
+      <g id="e122" data-name="e">
+        <path id="d244" data-name="d" class="st5" d="M320.2,267.7l2.4,1.8.9-1.2"/>
+        <path id="d245" data-name="d" class="st5" d="M320.2,267.7h3s0,1.5,0,1.5"/>
+      </g>
+      <g id="e123" data-name="e">
+        <path id="d246" data-name="d" class="st5" d="M324.8,271l-.9-2.8-1.4.5"/>
+        <path id="d247" data-name="d" class="st5" d="M324.8,271l-2.4-1.8.9-1.2"/>
+      </g>
+      <g id="e124" data-name="e">
+        <path id="d248" data-name="d" class="st5" d="M321.3,271l2.4-1.8-.9-1.2"/>
+        <path id="d249" data-name="d" class="st5" d="M321.3,271l.9-2.8,1.4.5"/>
+      </g>
+    </g>
+  </g>
+  <g id="o5" data-name="o">
+    <g id="f25" data-name="f">
+      <g id="e125" data-name="e">
+        <path id="d250" data-name="d" class="st5" d="M258,261l-1.4,4.3,2.1.7"/>
+        <path id="d251" data-name="d" class="st5" d="M258,261l1.4,4.3-2.1.7"/>
+      </g>
+      <g id="e126" data-name="e">
+        <path id="d252" data-name="d" class="st5" d="M262.3,264.1h-4.5v2.2"/>
+        <path id="d253" data-name="d" class="st5" d="M262.3,264.1l-3.6,2.6-1.3-1.8"/>
+      </g>
+      <g id="e127" data-name="e">
+        <path id="d254" data-name="d" class="st5" d="M253.8,264.1l3.6,2.6,1.3-1.8"/>
+        <path id="d255" data-name="d" class="st5" d="M253.8,264.1h4.5v2.2"/>
+      </g>
+      <g id="e128" data-name="e">
+        <path id="d256" data-name="d" class="st5" d="M260.7,269.1l-1.4-4.3-2.1.7"/>
+        <path id="d257" data-name="d" class="st5" d="M260.7,269.1l-3.6-2.6,1.3-1.8"/>
+      </g>
+      <g id="e129" data-name="e">
+        <path id="d258" data-name="d" class="st5" d="M255.4,269.1l3.6-2.6-1.3-1.8"/>
+        <path id="d259" data-name="d" class="st5" d="M255.4,269.1l1.4-4.3,2.1.7"/>
+      </g>
+    </g>
+  </g>
+  <g id="s">
+    <g id="f26" data-name="f">
+      <g id="e130" data-name="e">
+        <path id="d260" data-name="d" class="st5" d="M300,290.3l-.5,1.4.7.2"/>
+        <path id="d261" data-name="d" class="st5" d="M300,290.3l.5,1.4-.7.2"/>
+      </g>
+      <g id="e131" data-name="e">
+        <path id="d262" data-name="d" class="st5" d="M301.4,291.4h-1.5s0,.7,0,.7"/>
+        <path id="d263" data-name="d" class="st5" d="M301.4,291.4l-1.2.9-.4-.6"/>
+      </g>
+      <g id="e132" data-name="e">
+        <path id="d264" data-name="d" class="st5" d="M298.6,291.4l1.2.9.4-.6"/>
+        <path id="d265" data-name="d" class="st5" d="M298.6,291.4h1.5s0,.7,0,.7"/>
+      </g>
+      <g id="e133" data-name="e">
+        <path id="d266" data-name="d" class="st5" d="M300.9,293l-.5-1.4-.7.2"/>
+        <path id="d267" data-name="d" class="st5" d="M300.9,293l-1.2-.9.4-.6"/>
+      </g>
+      <g id="e134" data-name="e">
+        <path id="d268" data-name="d" class="st5" d="M299.1,293l1.2-.9-.4-.6"/>
+        <path id="d269" data-name="d" class="st5" d="M299.1,293l.5-1.4.7.2"/>
+      </g>
+    </g>
+  </g>
+</svg>

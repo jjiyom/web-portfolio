@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 600 300">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1, .st2 {
+        stroke: #c8102e;
+      }
+
+      .st1, .st2, .st3, .st4 {
+        stroke-miterlimit: 80;
+      }
+
+      .st1, .st4 {
+        stroke-width: 60px;
+      }
+
+      .st2 {
+        stroke-width: 40px;
+      }
+
+      .st5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st3 {
+        stroke-width: 100px;
+      }
+
+      .st3, .st4 {
+        stroke: #fff;
+      }
+
+      .st6 {
+        fill: #012169;
+      }
+
+      .st7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" width="600" height="300"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon class="st0" points="300 150 600 150 600 300 300 300 0 300 0 150 0 0 300 0 600 0 300 150"/>
+    </clipPath>
+  </defs>
+  <g class="st7">
+    <g>
+      <path class="st6" d="M0,0v300h600V0H0Z"/>
+      <path class="st4" d="M0,0l600,300M600,0L0,300"/>
+      <g class="st5">
+        <path class="st2" d="M0,0l600,300M600,0L0,300"/>
+      </g>
+      <path class="st3" d="M300,0v300M0,150h600"/>
+      <path class="st1" d="M300,0v300M0,150h600"/>
+    </g>
+  </g>
+</svg>

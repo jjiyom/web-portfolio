@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+
+.popup_con{ background: var(--color-k-085); position: fixed; top: 0; left: 0; width: 100%; height: 0%; z-index: 9999; opacity: 0; pointer-events: none; overflow: hidden; -webkit-backdrop-filter: blur(0); backdrop-filter: blur(0); transition: all 350ms linear, height 0ms 350ms;}
+.popup_con .width_con{ padding: var(--mrgn-x4) 0; transform: scale(.975); transition: inherit; transform-origin: 50vw 50vh;}
+.popup_con .width_con > ul.v_con.ub_two_con{}
+.popup_con .width_con > ul.v_con.ub_two_con > li.cells{}
+.popup_con .width_con > ul.v_con.ub_two_con > li.cells.sticky{ top: var(--mrgn-x4); box-sizing: border-box; padding: var(--mrgn-x2); color: var(--color-w);}
+
+.popup_con .width_con > ul.v_con.ub_two_con > li.cells.sticky h3{ margin-bottom: var(--mrgn); opacity: .65; font-size: 1.5em;}
+.popup_con .width_con > ul.v_con.ub_two_con > li.cells.sticky h2{ margin-bottom: var(--mrgn-x2); font-size: 4em; }
+.popup_con .width_con > ul.v_con.ub_two_con > li.cells.sticky h5{ margin-bottom: var(--mrgn-half);}
+.popup_con .width_con > ul.v_con.ub_two_con > li.cells.sticky h5 span{ opacity: .35; display: inline-block; width: 33.333%;}
+.popup_con .width_con > ul.v_con.ub_two_con > li.cells.sticky h5 b{ display: inline-block; width: 66.666%;}
+
+.popup_con .width_con > ul.v_con.ub_two_con > li.cells.image_con{}
+.popup_con .width_con > ul.v_con.ub_two_con > li.cells.image_con img{ margin-bottom: var(--mrgn-x2); border-radius: var(--mrgn);}
+
+.popup_con .width_con > ul.v_con.ub_two_con > li.cells.box{}
+
+a.btn.btn_popup_close{ position: fixed; width: 48px; height: 48px; border-radius: 50%; background: var(--color-w-075); bottom: var(--mrgn-x4); left: 50%; transform: translateX(-50%); opacity: 0; z-index: 10000; box-shadow: 0 3px 9px -3px var(--color-k-075); transform: scale(1); filter: brightness(1);}
+a.btn.btn_popup_close:hover{ background: var(--color-point-y); filter: brightness(1.1);}
+a.btn.btn_popup_close:active{ transform: scale(.975); filter: brightness(.975);}
+a.btn.btn_popup_close i{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.75em; color: var(--color-k-065);}
+a.btn.btn_popup_close:hover i{ color: var(--color-point-g);}
+html.show_popup a.btn.btn_popup_close{opacity: 1;}
+
+html.show_popup{ overflow: hidden;}
+html.show_popup .popup_con{ height: 100%; opacity: 1; pointer-events: auto; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); transition: all 350ms linear, height 0ms; overflow-y: auto;}
+html.show_popup .popup_con .width_con{ transform: scale(1);}
+
+

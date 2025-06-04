@@ -1,0 +1,353 @@
+@charset "UTF-8";
+@media all and (min-width:0px) and (max-width:1039px){
+    :root{
+        --basic-width : calc(100% - var(--mrgn-x4));
+        --mobile-nav-width: 240px;
+    }
+    /*이 두개는 메뉴가 열렸을때 사이트 스크롤을 막아주는것 / 어떤사이트는 html로 스크롤이 작동되는게있고 어떤건 body로 스크롤이 작동되는 사이트가 있기때문에 이런걸 막을때는 항상 html과 body를 같이 막는다. 팝업띄울때 뒤에 배경은 멈춰야하기때문에 자주쓰임당*/
+    html:has(> body.open_nav), /*html중에 바로 밑자식이 body.open_nav을 가지고있을때 발동된다는 뜻*/
+    body.open_nav{ overflow: hidden;}
+    
+    
+    /*요기는 메뉴 눌렀을때 뒤에 웹사이트가 보이지 않도록 커버를 깔아주는곳!*/
+    #header.sections.section_00 .nav_cover{ position: fixed; top: 0; right: 0; width: 0; height: 100vh; background: transparent; box-shadow: 0 0 0 0 transparent; -webkit-backdrop-filter: blur(0); backdrop-filter: blur(0); transition: all 0ms 150ms, background 150ms linear, -webkit-backdrop-filter 150ms linear, backdrop-filter 150ms linear; z-index: 1;}/*백그라운드 어태치먼트 픽스드를 넣으면 하이트 100vh나 100%나 똑같이 작용하는데 그냥쓰면 배경이 느엉느엉 일케 왔다갔다하는 일이 발생함. 근데 이걸 해결하는건 common css에
+    html{
+        height: 100vh;
+    }
+    @supports (-webkit-touch-callout: none) {
+        height: -webkit-fill-available;
+    }
+    가 바로 이거기능입니다잉 
+    / 메뉴가 나올땐 메뉴에 집중할 수 있도록 스르륵 나오고 꺼질때는 메뉴가 필요 없어지니까 퐉꺼지게 한거임 / z-index: 1;은 까망색 커버 로고까지 덮어주려고준거*//*백그라운드 transparent 이거 왜준거징.... -> 항상 바뀌기 전 상태를 먼저 넣어줘야하기때무니죠! 그래야 같이 일하는사람들이 편해짐 (물론 나도)*/
+    body.open_nav #header.sections.section_00 .nav_cover{ width: 100vw; box-shadow: 0 0 50vw 50vw var(--color-k-085); -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); background: var(--color-k-085); transition: all 500ms ease-out, -webkit-backdrop-filter 1000ms linear 500ms, backdrop-filter 1000ms linear 500ms;}/*1초 후에 스르르르르르륵 백드랍필터가 생김 대박간지작살*//*백드랍필터는 사파리모바일에서는 작동안되기때문에 웹킷을 써줘야함 순서는 항상 웹킷이 먼저!!*/
+
+
+    /*햄버거버튼 쇽샥*/
+    body.open_nav #header.sections.section_00 .btn_open_nav{ right: calc(var(--mobile-nav-width) - var(--mrgn-x2));}/*엑스버튼 옆으로 보내버리기(양옆 36띄운거빼준거임)*/
+    #header.sections.section_00 .btn_open_nav{ position: absolute; top: 10px; right: 0; display: block; width: 40px; height: 40px;
+    cursor: pointer; z-index: 2;}
+    #header.sections.section_00 .btn_open_nav div{ position: absolute; top: 18px; right: 5px; width: 30px; height: 4px; background: #fff; border-radius: 1px; transition: background 0ms 150ms;}
+    body.open_nav #header.sections.section_00 .btn_open_nav div{ background: transparent;}
+    #header.sections.section_00 .btn_open_nav div:before,
+    #header.sections.section_00 .btn_open_nav div:after{ position: absolute; content:''; top: inherit; right: 0; width: inherit; height: inherit; background: #fff; border-radius: inherit; transition: all 150ms ease-in-out 150ms, transform 150ms ease-in-out;}
+    body.open_nav #header.sections.section_00 .btn_open_nav div:before,
+    body.open_nav #header.sections.section_00 .btn_open_nav div:after{ position: absolute; content:''; top: inherit; right: 0; width: inherit; height: inherit; background: #fff; border-radius: inherit; transition: all 150ms ease-in-out, transform 150ms ease-in-out 150ms;}
+    #header.sections.section_00 .btn_open_nav div:before{ top: -10px; transform: rotate(0deg);}
+    #header.sections.section_00 .btn_open_nav div:after{ top: 10px; transform: rotate(0deg);}
+    body.open_nav #header.sections.section_00 .btn_open_nav div:before{ top: 0; transform: rotate(-45deg);}
+    body.open_nav #header.sections.section_00 .btn_open_nav div:after{ top: 0; transform: rotate(45deg);}
+
+    
+    /*메뉴 나오게하는곳 / 그 메뉴들 수직정렬하고 그 밑줄 뽀잉뽀잉 없앰 / 폰트 사이즈도 크게 변경*/
+    #header.sections.section_00{ height: 60px; overflow: visible !important;}/* overflow: visible;은 모바일에서 헤더 옆에 나오게하는것*/
+    #header.sections.section_00 .width_con ul{ z-index: 2;}/*뒤에 까만 커버위에 메뉴바(lnb)들이 나오도록*/
+    #header.sections.section_00 .width_con ul > li > a{ color: var(--color-w) !important;}/*어차피 모바일에서는 터치로 작용하기때문에 호버같은 기능이 필요가 없음*/
+    #header.sections.section_00 .width_con ul.nav_lnb > li:hover > a:after{ display: none;}/*밑줄 뽀잉뽀잉 없앤거*/
+    #header.sections.section_00 .width_con ul.nav_gnb,
+    #header.sections.section_00 .width_con ul.nav_lnb{ position: fixed; right: calc(var(--mobile-nav-width) * -1); width: var(--mobile-nav-width); box-sizing: border-box; background: var(--color-k);}
+    #header.sections.section_00 .width_con ul.nav_gnb{ bottom: 0; top: auto !important; padding: var(--mrgn-x2) var(--mrgn-x2) var(--mrgn-half) 0; opacity: 1 !important; filter: blur(0) !important; pointer-events: all !important; z-index: 3;}
+    
+    #header.sections.section_00 .width_con ul.nav_gnb:after{ position: absolute; content: ''; bottom: 100%; left: 0; width: 100%; height: var(--mrgn-x2); pointer-events: none; background: linear-gradient(transparent, var(--color-k));}
+    #header.sections.section_00 .width_con ul.nav_lnb{ top: 0 !important; height: 100vh; padding: var(--mrgn-x8) 0 var(--mrgn-x16); overflow: auto;}
+    #header.sections.section_00 .width_con ul.nav_lnb:after{ position: absolute; content: ''; top: 0; left: 0; width: 100%; height: var(--mrgn-x8); pointer-events: none; background: var(--color-k) url(../img/logo/bi_logo_small.svg) no-repeat 50% var(--mrgn-x4) / calc(var(--mobile-nav-width) - var(--mrgn-x4)); background-size: 120px;}/*슬래쉬다음은 사이즈 지정. 두개를 적으면 width/height둘다 지정. 하나만적으면 둘 중 하나. 커버로할건지 뭐 그런거있잖슴~*/
+    body.open_nav #header.sections.section_00 .width_con ul.nav_gnb,
+    body.open_nav #header.sections.section_00 .width_con ul.nav_lnb{ right: 0;}
+    #header.sections.section_00 .width_con ul.nav_gnb > li,
+    #header.sections.section_00 .width_con ul.nav_lnb > li{ display: block;}
+    #header.sections.section_00 .width_con ul.nav_gnb > li{ margin: 1.5em 0 0 0; font-size: 1.25em;}
+    #header.sections.section_00 .width_con ul.nav_gnb > li.v_divider{ color: transparent; height: 1px; background-color: var(--color-w-015);}
+    #header.sections.section_00 .width_con ul.nav_lnb > li{ margin-top: 2.5em; font-size: 1.35em;}
+
+    #header.sections.section_00 .width_con a.btn_home { height: 40px !important; top: 10px !important;}
+
+    /*트랜지션을 주고싶어요.... 줬음!!!!!!!!!!!!!!됨!!!!!!*/
+    #header.sections.section_00 .width_con ul.nav_lnb > li{ margin-left: 0; opacity: 0; filter: blur(4px); transition: all 150ms ease-out;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_lnb > li{ margin-left: var(--mrgn-x2); opacity: 1; filter: blur(0);}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_lnb > li:nth-child(1){  transition-delay:  100ms;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_lnb > li:nth-child(2){  transition-delay:  200ms;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_lnb > li:nth-child(3){  transition-delay:  300ms;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_lnb > li:nth-child(4){  transition-delay:  400ms;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_lnb > li:nth-child(5){  transition-delay:  500ms;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_lnb > li:nth-child(6){  transition-delay:  600ms;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_lnb > li:nth-child(7){  transition-delay:  700ms;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_lnb > li:nth-child(8){  transition-delay:  800ms;}
+
+    #header.sections.section_00 .width_con ul.nav_gnb > li{ margin-left: 0; opacity: 0; filter: blur(4px); transition: all 150ms ease-out;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_gnb > li{ margin-left: var(--mrgn-x2); opacity: 1; filter: blur(0);}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_gnb > li:nth-child(1){  transition-delay:  900ms;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_gnb > li:nth-child(2){  transition-delay:  1000ms;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_gnb > li:nth-child(3){  transition-delay:  1100ms;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_gnb > li:nth-child(4){  transition-delay:  1200ms;}
+    body.open_nav #header.sections.section_00 .width_con ul.nav_gnb > li:nth-child(5){  transition-delay:  1300ms;}
+
+
+
+    /*--------------공통*/
+    ul.v_con.two_con > li.cells{ width: calc(100% - var(--mrgn-x2));}
+    ul.v_con.four_con > li.cells{ width: calc(50% - var(--mrgn-x2));}
+    ul.v_con.six_con > li.cells{ width: calc(33.333% - var(--mrgn-x2));}
+    ul.v_con.ub_two_con > li.cells{ width: calc(100% - var(--mrgn-x2)) !important;}
+    .title_con{ text-align: center;}
+    .title_con h4:before{ left: calc(50% - var(--mrgn-half));}
+    .sticky { position: static !important;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a{ filter: none !important;}
+    #footer.sections.section_09 .width_con.sitemap ul.v_con > li.cells ul.v_con.ub_two_con > li.cells ul.v_con.four_con > li.cells ul.link > li{ font-size: 1.2em; margin-bottom: var(--mrgn-x2);}
+    #footer.sections.section_09 .width_con.sitemap ul.v_con > li.cells ul.v_con.ub_two_con > li.cells ul.v_con.four_con > li.cells ul.link > li > a{ padding: calc(var(--mrgn-half));}
+    #footer.sections.section_09 .width_con.bottom ul.bottom_list > li{ font-size: 1.1em; padding-bottom: var(--mrgn);}
+
+    /*--------------converse*/
+    #converse.sections.section_04 .width_con ul.v_con.two_con li.cells.big{ width: calc(100% - var(--mrgn-x2));}
+    #converse.sections.section_04 .width_con ul.v_con.two_con li.cells.big ul.v_con.two_con li.cells.box{ width: calc(50% - var(--mrgn-x2));}
+    #converse.sections.section_04 .width_con > ul.v_con.two_con{ display: flex; flex-direction: column;}
+    #converse.sections.section_04 .width_con > ul.v_con.two_con li.cells.big:nth-of-type(1){order: 1;}
+    #converse.sections.section_04 .width_con > ul.v_con.two_con li.cells.big:nth-of-type(2){order: 2;}
+    #converse.sections.section_04 .width_con > ul.v_con.two_con li.cells.big:nth-of-type(3){order: 4;}
+    #converse.sections.section_04 .width_con > ul.v_con.two_con li.cells.big:nth-of-type(4){order: 3;}
+
+    /*--------------news*/
+    #news.sections.section_05 .width_con ul.v_con.rub_two_con{ display: flex; flex-direction: column;}
+    #news.sections.section_05 .width_con ul.v_con.rub_two_con li.cells{ width: calc(100% - var(--mrgn-x2));}
+    #news.sections.section_05 .width_con ul.v_con.rub_two_con li.cells:nth-of-type(1){order: 2;}
+    #news.sections.section_05 .width_con ul.v_con.rub_two_con li.cells:nth-of-type(2){order: 1;}
+    #news.sections.section_05 .width_con ul.v_con.rub_two_con li.cells:nth-of-type(3){order: 3;}
+    #news.sections.section_05 .width_con ul.v_con.rub_two_con li.cells ul.v_con li.cells{ width: calc(100% - var(--mrgn-x2));}
+    #news.sections.section_05 .width_con ul.v_con.rub_two_con li.cells .btn_con{ text-align: center;}
+    #news.sections.section_05 .width_con ul.v_con.rub_two_con li.cells .btn_con a{ display: block;}
+    #news.sections.section_05 .width_con ul.v_con.rub_two_con li.cells .btn_con .btn.btn_b{ display: inline-block;}
+    #news.sections.section_05 .width_con ul.v_con.rub_two_con li.cells .btn_con .btn.btn_a{ left: 50%; transform: translateX(-50%); margin: 0 0 var(--mrgn);}
+
+    /*--------------coach*/
+    #coach.sections.section_06 .width_con > ul.v_con > li.cells.box ul.v_con.two_con.inner_con li.cells{ padding-bottom: calc(var(--mrgn-x16) * 2 + var(--mrgn-x2));}
+    #coach.sections.section_06 .width_con > ul.v_con > li.cells.box ul.v_con.two_con.inner_con li.cells > ul{ position: absolute; left: 50%; transform: translateX(-50%); bottom: var(--mrgn-x8); }
+    #coach.sections.section_06 .width_con > ul.v_con > li.cells.box > img.coach{ right: 50%; transform: translateX(50%); height: calc(var(--mrgn-x16) * 2);}
+
+    /*--------------headliner*/
+    .tab_menu > .tab_btn_con{ overflow-x: auto;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells.sticky{ position: absolute !important; top: 0; height: 70vh; margin-top: 30vh; text-align: center;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells.sticky img{width: auto; height: inherit;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu{margin-top: 75vh !important;}
+
+    /*--------------stadium*/
+    #stadium.sections.section_08:before{ position: absolute; top: 0; left: 0; content: ''; width: 100%; height: 100%; background: var(--color-w-075);}
+}
+
+@media all and (min-width:0px) and (max-width:599px){
+    /*모바일*/
+    :root{
+        --mrgn: 12.5px;
+        --basic-font-size: 10px;
+    }
+
+    /*--------------visual*/
+    #visual.sections.section_01{ aspect-ratio: 3 / 5;}
+    #visual.sections.section_01 > iframe.yt_video{ width: 296.21%;}
+
+    /*--------------fixture*/
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box:before{ top: 27%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1{ aspect-ratio:  3/4;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info{ width: 80%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .left img.big,
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .right img.big { top: 60%; height: 50%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .left img.small,
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .right img.small { height: 12%; top: 26%; width: 20%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a .teams{ top: 28%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .left .teams{ right: 26%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .right .teams{ left: 26%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div h5{ font-size: 1.4em;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div h6{ font-size: 1.2em;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div i{ font-size: 2.4em;}
+
+    /*--------------headliner*/
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .top_wrap .t_left_wrap .top .position{ font-size: 2.3em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_top_wrap .name{ font-size: 1.6em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill{ font-size: 1.1em;}
+    
+    /*--------------footer*/
+    #footer.sections.section_09 .width_con.sponsor_01 ul.v_con.four_con > li.cells{ text-align: center;}
+    #footer.sections.section_09 .width_con.sponsor_01 ul.v_con.four_con > li.cells > img{ width: 60%;}
+    #footer.sections.section_09 .width_con.sponsor_02 ul.v_con.six_con > li.cells{ text-align: center;}
+    #footer.sections.section_09 .width_con.sponsor_02 ul.v_con.six_con > li.cells > img{ width: 70%;}
+}
+
+@media all and (min-width:500px) and (max-width:599px){
+    /*--------------headliner*/
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .top_wrap .t_left_wrap .top .position{ font-size: 2.3em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_top_wrap .name{ font-size: 1.7em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill{ font-size: 1.2em;}
+}
+
+@media all and (min-width:0px) and (max-width:479px){
+    /*작은 모바일*/
+    :root{
+        --mrgn: 10px;
+        --basic-font-size: 10px;
+    }
+
+    /*--------------visual*/
+    #visual.sections.section_01{ aspect-ratio: 2 / 3;}
+    #visual.sections.section_01 > iframe.yt_video{ width: 266.64%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a .teams h2{ font-size: 2em;}
+
+    /*--------------fixture*/
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .home .teams h2:after{ font-size: 0.4em;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a .teams h2:after{ font-size: 0.4em;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div img{ position: relative; top: calc(var(--mrgn-half) * -1); width: 45%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div img:last-child{ margin-top: var(--mrgn);}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a span b{ font-size: 1.1em;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div h5{ font-size: 1.1em;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div h6{ font-size: .9em;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div i{ font-size: 1.6em;}
+
+    /*--------------headliner*/
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .top_wrap .t_left_wrap .top .position{ font-size: 1.6em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_top_wrap .name{ font-size: 1.3em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill{ font-size: 1em;}
+
+    /*--------------footer*/
+    #footer.sections.section_09 .width_con.sponsor_01 ul.v_con.four_con > li.cells{ text-align: center;}
+    #footer.sections.section_09 .width_con.sponsor_01 ul.v_con.four_con > li.cells > img{ width: 60%;}
+    #footer.sections.section_09 .width_con.sponsor_02 ul.v_con.six_con > li.cells{ text-align: center;}
+    #footer.sections.section_09 .width_con.sponsor_02 ul.v_con.six_con > li.cells > img{ width: 70%;}
+
+}
+
+@media all and (min-width:450px) and (max-width:489px){
+    /*--------------headliner*/
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .top_wrap .t_left_wrap .top .position{ font-size: 1.9em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_top_wrap .name{ font-size: 1.5em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill{ font-size: 1em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill b, #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill b{ min-width: 28px;}
+}
+@media all and (min-width:400px) and (max-width:449px){
+    /*--------------headliner*/
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .top_wrap .t_left_wrap .top .position{ font-size: 1.9em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_top_wrap .name{ font-size: 1.4em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill{ font-size: 1em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill b,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill b{ min-width: 18px;}
+}
+
+@media all and (min-width:0px) and (max-width:399px){
+    /*--------------headliner*/
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .top_wrap .t_left_wrap .top .position{ font-size: 1.5em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_top_wrap .name{ font-size: 1.1em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill{ font-size: 0.8em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill b,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill b{ min-width: 15px;}
+
+}
+
+@media all and (min-width:600px) and (max-width:1039px){
+    /*타블렛*/
+    :root{
+        --mrgn: 15px;
+        --basic-font-size: 12px;
+    }
+
+    /*--------------visual*/
+    #visual.sections.section_01{ aspect-ratio: 3 / 4;}
+    #visual.sections.section_01 > iframe.yt_video{ width: 237.04%;}
+
+    /*--------------fixture*/
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box:before{top: 26%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a:before{ top: -40%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1{ aspect-ratio: 3/2;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .left img.small,
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .right img.small { height: 12%; top: 26%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info{ width: 50%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .left img.big,
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .right img.big { height: 50%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a .teams{ top: 28%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .left .teams{ right: 23%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .right .teams{ left: 23%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div h5{ font-size: 1.2em;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div h6{ font-size: 1em;}
+
+    /*--------------headliner*/
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .top_wrap .t_left_wrap .top .position{ font-size: 3em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_top_wrap .name{ font-size: 2.3em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill{ font-size: 1.7em;}
+
+    /*--------------footer*/
+    #footer.sections.section_09 .width_con.sponsor_01 ul.v_con.four_con > li.cells{ text-align: center;}
+    #footer.sections.section_09 .width_con.sponsor_01 ul.v_con.four_con > li.cells > img{ width: 50%;}
+    #footer.sections.section_09 .width_con.sponsor_02 ul.v_con.six_con > li.cells{ text-align: center;}
+    #footer.sections.section_09 .width_con.sponsor_02 ul.v_con.six_con > li.cells > img{ width: 50%;}
+    #footer.sections.section_09 .width_con.bottom .logo img{ width: 15%;}
+}
+
+
+@media all and (min-width:600px) and (max-width:699px){
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div img{ position: relative; top: calc(var(--mrgn-half) * -1); width: 45%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div img:last-child{ margin-top: var(--mrgn-half);}
+
+    /*--------------headliner*/
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .top_wrap .t_left_wrap .top .position{ font-size: 2.4em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_top_wrap .name{ font-size: 1.6em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill{ font-size: 1.4em;}
+}
+@media all and (min-width:700) and (max-width:899px){
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div img{ position: relative; top: calc(var(--mrgn-half) * -1); width: 45%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div img:last-child{ margin-top: var(--mrgn);}
+
+
+}
+@media all and (min-width:600px) and (max-width:899px){
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1{ aspect-ratio:  4 / 3;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div i:last-child{ margin-bottom: 0;}
+}
+@media all and (min-width:900px) and (max-width:1039px){
+    /*--------------headliner*/
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .top_wrap .t_left_wrap .top .position{ font-size: 4.1em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_top_wrap .name{ font-size: 3em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill{ font-size: 2.4em;}
+}
+
+
+@media all and (min-width:1040px) and (max-width:1239px){
+    /*데스크탑*/
+    :root{
+        --mrgn: 17.5px;
+        --basic-font-size: 13px;
+        --basic-width : 1000px;
+    }
+    /*--------------fixture*/
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div img{ position: relative; top: calc(var(--mrgn-half) * -1); width: 52%;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box.ratio_3x1 > a .match_info ul.v_con.four_con > li.cells.box div img:last-child{ margin-top: var(--mrgn-half);}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a .teams h2{ font-size: 2.3em;}
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .left img.small,
+    #fixture.sections.section_02 .width_con > ul.v_con.schedule_list > .slick-list > .slick-track > li.cells.box > a > .right img.small { height: 24%;}
+
+    /*--------------headliner*/
+    .tab_menu > .tab_btn_con{ overflow-x: auto;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .top_wrap .t_left_wrap .top .position{ font-size: 1.7em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_top_wrap .name{ font-size: 1.2em;}
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .left .skill,
+    #headliner.sections.section_07 .width_con ul.v_con.two_con li.cells .tab_menu .tab_cate_content .cells.box.card a .bottom_wrap .b_bottom_wrap .right .skill{ font-size: 1em;}
+}
+
+@media all and (min-width:1240px) and (max-width:1459px){
+    #visual.sections.section_01{ aspect-ratio: 3 / 2;}
+    #visual.sections.section_01 > iframe.yt_video{ width: 118.52%;}
+    /*큰 데스크탑*/
+    /*1200기준 설계*/
+}
+
+@media all and (min-width:1460px){
+    /*큰 데스크탑*/
+    :root{
+        --mrgn: 20px;
+        --basic-font-size: 16px;
+        --basic-width : 1400px;
+    }
+    #visual.sections.section_01{ aspect-ratio: 2 / 1;}
+}

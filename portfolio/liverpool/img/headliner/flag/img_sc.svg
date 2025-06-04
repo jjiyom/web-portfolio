@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 600 360">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #fff;
+        stroke-width: 72px;
+      }
+
+      .st1 {
+        fill: #0065bd;
+      }
+    </style>
+  </defs>
+  <rect class="st1" width="600" height="360"/>
+  <path class="st0" d="M0,0l600,360M0,360L600,0"/>
+</svg>
