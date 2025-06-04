@@ -40,6 +40,7 @@
 }
 
 html, body{ position: relative; min-width: var(--basic-width); max-width: 1920px; margin: 0 auto; background: var(--color-main); color: var(--color-main); font-size: var(--basic-font-size); font-family: "DynaPuff";}
+a{ text-decoration: none;}
 .fa-solid, .fa-regular, .fa-light, .fa-thin{ line-height: inherit;}
 .wrap{ position: relative;}
 .sections{ position: relative;}
